@@ -1,15 +1,13 @@
 var React = require('react');
 
-var Main = (props) =>{
-    return(
-        <div>
-            <div className="row">
-                <div className="columns medium-6 large-4 small-centered">
-                    {props.children}
-                </div>
+var Main = React.createClass({
+    render: function () {
+        return (
+            <div>
+                Main.jsx
             </div>
-        </div>
-    );
-}
+        )
+    }
+});
 
 module.exports = Main;
